@@ -1,0 +1,15 @@
+TODO:
+    - create bot and get commands working // OK
+    - take music from !sr command message and search on youtube // OK
+    - choose one music from the youtube search and add link to playlist // OK
+    - create a web player for the playlist 
+    - create a dashboard for the streamer
+    - maybe try to get it working with spotify
+
+DATABASE:
+    - streamer_username pkey
+    - client_id pkey
+    - songqueue array[string]
+    - playlists array[string] (nomes das playlists)
+    - playlist map[string][string] (nome da playlist + musicas)
+    - active boolean

@@ -1,7 +1,7 @@
-import os # for importing env vars for the bot to use
-from twitchio.ext import commands
+import os 
+from twitch_songrequest_bot.bot import Bot
 
-bot = commands.Bot(
+bot = Bot(
     # set up the bot
     irc_token=os.environ['TMI_TOKEN'],
     client_id=os.environ['CLIENT_ID'],
@@ -9,6 +9,4 @@ bot = commands.Bot(
     prefix=os.environ['BOT_PREFIX'],
     initial_channels=[os.environ['CHANNEL']]
 )
-
-if __name__ == "__main__":
-    bot.run()
+bot.run()

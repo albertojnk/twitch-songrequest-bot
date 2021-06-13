@@ -1,0 +1,17 @@
+.login {
+    width: 600px;
+    height: 800px;
+    border: 1px solid lightgrey;
+    border-radius: 6px;
+
+}
+
+.content {
+    width: 98vw;
+    height: 97vh;
+    padding: 3px;
+}
+
+.center {
+    margin: 30px auto;
+}
